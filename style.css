@@ -1,0 +1,73 @@
+#icerikPanel #todoList[contentEditable=false] {
+	background-color: #E7E7E7;
+}
+
+#icerikPanel #todoList[contentEditable=true] {
+    background-color: #FFFFFF;
+}
+
+#icerikPanel #todoList {
+	border-radius: 3px;
+	font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+	padding-left: 60px;
+}
+
+#icerikPanel {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	padding: 40px;
+	border-radius: 3px;
+	background-color: #D9EFFD;
+	width: 300px;
+    margin:50px auto;
+    box-shadow: 3px 3px 10px #fff,-3px 3px 10px #fff,3px -3px 10px #fff,-3px -3px 10px #fff;
+    transition: 500ms all;
+}
+#icerikPanel:hover{
+    box-shadow: none;
+}
+body {
+	background-color: #674172;
+}
+h1 {
+    color:#fff;
+	font-family:Arial, sans-serif;
+	font-size: 32px;
+    text-align: center;
+	background-color: #59ABE3;
+	padding: 5px;
+	margin-top: 0px;
+    
+    
+}
+#todoList li {
+	padding: 10px 10px 10px 5px;
+	font-family: 'Montserrat', sans-serif, Arial, sans-serif;
+	font-size: x-large;
+}
+
+input[type=button] {
+    font-family: 'Montserrat', sans-serif, Arial, sans-serif;
+	font-weight: bold;
+	border-radius: 3px;
+	padding: 5px;
+	font-size: large;
+}
+
+#temizleButon {
+	background-color: #F5AB35;
+	border: 2px solid #D35400;
+}
+#duzenleButon{
+	background-color: #C8F7C5;
+	border: 2px solid #95BF00;
+	margin-right: 10px;	
+}
+
+#temizleButon:hover {
+	background-color: #F45000;
+	cursor: pointer;
+}
+#duzenleButon:hover {
+	background-color: #95BF00;
+	cursor: pointer;
+}
